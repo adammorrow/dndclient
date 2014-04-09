@@ -1,8 +1,18 @@
 ﻿<Window x:Class="DndClient.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="D&amp;D Client" WindowState="Maximized">
     <Grid>
-        
+        <DockPanel LastChildFill="True">
+            <StackPanel DockPanel.Dock="Top">
+                <Menu>
+                    <MenuItem Header="_File">
+                        <MenuItem Header="_Open"/>
+                        <MenuItem Header="_Close"/>
+                        <MenuItem Header="_Save"/>
+                    </MenuItem>
+                </Menu>
+            </StackPanel>
+        </DockPanel>
     </Grid>
 </Window>

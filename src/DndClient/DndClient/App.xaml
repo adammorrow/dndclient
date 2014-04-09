@@ -1,8 +1,9 @@
 ﻿<Application x:Class="DndClient.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewModel="clr-namespace:DndClient.ViewModel"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <viewModel:ViewModelLocator x:Key="locator" />
     </Application.Resources>
 </Application>
