@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DndClient.ViewModel
 {
-    class ViewModelLocator
+    public class ViewModelLocator
     {
+        public ViewModelLocator()
+        {
+            
+        }
     }
 }
